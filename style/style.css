@@ -1,0 +1,44 @@
+* {
+    font-family: monospace;   
+}
+
+h1 {
+    padding-left: 6.5%;
+}
+
+h2 {
+    padding-left: 6.5%;
+}
+
+h3 {
+    padding-left: 6.5%;
+}
+
+#counter {
+    padding-left: 6.5%;
+    padding-top: 35%;
+}
+
+#F {
+    padding-left: 6.5%;
+    padding-top: 52%;
+}
+
+body{
+  height: 100%;
+overflow: hidden;
+}
+
+#surface{
+  position: absolute;
+  height: 500px;
+  width: 1000px;
+    left: 100px;
+    top: 100px;
+  background: url(../images/Hintergrund.jpg);
+    
+}
+img{
+    height: 100px;
+    width: 50px;
+}
