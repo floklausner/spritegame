@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homer auf der Jagd</title>
+    <link rel = "stylesheet" type = "text/css" href = "style/style.css" />
+    <script src="script/script.js" charset="utf-8"></script>
+  </head>
+    
+<body onload = "init()">
+      
+    <header>
+    <h1>Sammle Donuts um Homer zu helfen einen hohen Zuckergehalt zu bekommen!</h1>
+    <h2>Benutze dafür die Pfeiltasten um Homer rollen zu lassen</h2>
+        
+    <div id="counter">
+        <p>Donuts Collectet: </p>    
+    </div>
+      </header>
+      
+    <div id = "surface">
+      <div id = "sprite" style = "position: absolute; top: 10px; left: 10px;">
+        <img id="image" src="images/Homer2.png" alt = "homer"/>
+      </div>
+        
+        <div id="donut" style="position: absolute; top: 10px; left: 10px;"><img id="nutImg" src="images/Donut.png"></div>
+    
+        <div id="finished" style="position: absolute; width: 0; height: 0; left: 0; top: 0; background-color: 0;"></div>
+    </div>
+  </body>
